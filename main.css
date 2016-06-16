@@ -1,0 +1,68 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 3vh 0 3vh 0;
+  text-align: center;
+}
+
+h1 {
+  color: #444;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 6vw;
+  font-weight: 500;
+  margin: 0 0 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+picture#banner img {
+  -webkit-filter: saturate(3) opacity(0.7);
+  margin: 0 0 2em 0;
+  width: 60vw;
+}
+
+article {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  color: #444;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin: 0 auto 1em auto;
+  text-align: justify;
+}
+
+p.borderBelow {
+  border-bottom: 1px solid #eee;
+  padding: 0 0 1em 0;
+}
+
+.img-2 {
+  display: flex;
+}
+
+.panoram {
+  width: 200%;
+}
