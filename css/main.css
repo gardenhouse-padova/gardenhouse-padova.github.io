@@ -27,6 +27,15 @@ h1 {
   margin: 0 0 1em 0;
 }
 
+h2 {
+  border-bottom: 1px solid #ddd;
+  color: #bb021e;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 4vw;
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -64,5 +73,6 @@ p.borderBelow {
 }
 
 .panoram {
-  width: 200%;
+  width: 25%;
+  padding-right: 10px;
 }
