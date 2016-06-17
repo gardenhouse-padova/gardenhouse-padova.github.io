@@ -3,11 +3,23 @@
   display: inline-block;
   font-family: 'zocial', sans-serif;
   text-shadow: 3px 3px 3px #aaa;
-  width: 2em;
+  width: 1.5em;
 }
 
-a:hover [class*="zocial-"]:before {
-  color: #3d85c6;
+[class*="zocial-width"]:before {
+  width: 2.2em;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1.4em 0;
+}
+
+a:hover {
+  color: #424242;
+  text-decoration: underline;
 }
 
 body {
@@ -24,7 +36,7 @@ h1 {
   font-family: 'Roboto condensed', sans-serif;
   font-size: 6vw;
   font-weight: 500;
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
 }
 
 h2 {
@@ -38,6 +50,10 @@ h2 {
 
 img {
   max-width: 100%;
+}
+
+header {
+  margin-bottom: 2em;
 }
 
 picture#banner img {
@@ -75,4 +91,8 @@ p.borderBelow {
 .panoram {
   width: 25%;
   padding-right: 10px;
+}
+
+footer {
+  margin-top: 2em;
 }
